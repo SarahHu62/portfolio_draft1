@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+	<!-- You do not need to make any changes to this file, but
+	you should still review the tags to make sure that you
+	are familiar with them. -->
+
+<html lang="en">
+<!-- All of the meta data for the page belongs in the header tag -->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Link to the favicon image -->
+	<link rel="icon" href="images/favicon.ico">
+	<!-- Link to the reset file -->
+	<link rel="stylesheet" href="css/html5reset.css">
+	<!-- Link to the stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Home Page</title>
+</head>
+
+<!-- All of the visible code in the page belongs in the body tag -->
+<body>
+	<a class="skip" href="#main">Skip to Main Content</a>
+	<!-- Header is a sematic tag page that aids readability -->
+	<header>
+		<!-- Nav is a sematic tag page that aids accessibility -->
+		<nav>
+			<ul>
+				<!-- Since I am on the index file I added class = action to the link to index. -->
+				<li class="active"><a href = "index.html" >Home Page</a></li>
+				<li><a href = "alltype.html">All Types</a></li>
+				<li><a href = "typedetail.html">Type Details</a></li>
+				<li><a href = "celebrity.html">Celebrity Types</a></li>
+			</ul>
+		</nav>
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1 id="main">MBTI 16 Personalities</h1>
+	</header>
+
+	<!-- Every page should have a main tag for accessibility -->
+	<main>
+		<p>The purpose of the Myers-Briggs Type Indicator® (MBTI®) personality inventory is to make the theory of psychological types described by C. G. Jung understandable and useful in people's lives. The essence of the theory is that much seemingly random variation in the behavior is actually quite orderly and consistent, being due to basic differences in the ways individuals prefer to use their perception and judgment.</p>
+		<div class="center_img">
+			<img class="center_img" src="images/16personalities.png" alt="16 personality chart" width="500" />
+		</div>
+		<!-- Make sure your anchor tags have a link (href) and a clickable component -->
+		<p>
+			The theory of psychological type was introduced in the 1920s by Carl G. Jung. The MBTI tool was developed in the 1940s by Isabel Briggs Myers and the original research was done in the 1940s and '50s. This research is ongoing, providing users with updated and new information about psychological type and its applications. Millions of people worldwide have taken the Indicator each year since its first publication in 1962.
+			You could take the test here: <a href = "https://www.16personalities.com/free-personality-test">16 Personalities Test</a>.
+		</p>
+		<div class="center_img">
+			<img src="images/4field.png" alt="detailed information in the 4 dimension" width="500" />
+		</div>
+	</main>
+
+	<!-- Footer is a sematic tag page that aids readability -->
+	<footer>
+		<p class="bottom">16 Personalities &copy; 2022</p>
+	</footer>
+</body>
+</html>
